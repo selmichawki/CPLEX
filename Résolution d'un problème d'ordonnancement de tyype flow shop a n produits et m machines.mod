@@ -1,4 +1,4 @@
-"""Résolution d'un problème d'ordonnancement de tyype flow shop a n produits et m machines"""
+"""Résolution d'un problème d'ordonnancement de type flow shop a n produits et m machines"""
 
 
 
