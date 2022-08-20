@@ -1,15 +1,14 @@
-/*********************************************
- * OPL 12.9.0.0 Model
- * Author: user
- * Creation Date: 16 juin 2020 at 20:50:12
- *********************************************/
+"""Résolution d'un problème d'ordonnancement de tyype flow shop a n produits et m machines"""
+
+
+
 int n=...;
 int m=...;
 range I=1..n;
 range K=1..m;
 int p [j in K][i in I]= ...;
 int M = 1000;
-//var de d�cision
+//var de décision
 dvar int+ C[K][I][I];
 dvar int+ Cmax;
 dvar boolean x[K][I][I];
